@@ -4,7 +4,7 @@ Contains code that i've built but had to remove from my projects due to architec
 
 :warning: A lot of these might not have tests 
 
-## Liscense
+## License
 [AGPL-3.0-only](https://github.com/abrandec/code-graveyard/blob/master/LICENSE)
 
 ## Disclaimer
