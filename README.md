@@ -2,7 +2,7 @@
 
 Contains code that i've built but had to remove from my projects due to architectural changes, etc that other way find useful for learning
 
-:warning: A lot of these might not have tests 
+:warning: A lot of do not have tests 
 
 ## License
 [AGPL-3.0-only](https://github.com/abrandec/code-graveyard/blob/master/LICENSE)
