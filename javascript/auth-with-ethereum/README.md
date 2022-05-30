@@ -1,11 +1,13 @@
 # Authentication with Ethereum Signatures
 
 ## Setup
+
 ```
 yarn
 ```
 
 ## Linting/Prettier
+
 ```
 yarn lint
 

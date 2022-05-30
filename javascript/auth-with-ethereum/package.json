@@ -1,15 +1,15 @@
 {
-  "name": "secp256k1-pam-auth",
+  "name": "auth-with-ethereum",
   "version": "1.0.0",
-  "description": "authenticate and manage ecdsa (secp256k1) signatures for pam authentication",
-  "main": "index.js",
-  "repository": "https://github.com/abrandec/pam-ecdsa-auth",
+  "description": "authentication example using ethereum signatures",
+  "main": "./src/index.js",
+  "repository": "https://github.com/abrandec/code-graveyard",
   "author": "Abran DeCarlo <abrandecarlo@protonmail.com>",
   "license": "AGPL-3.0-only",
   "scripts": {
     "build": "tsc",
-    "start": "node ./typescript/bin/index.js",
-    "dev": "ts-node ./typescript/index.ts",
+    "start": "node ./src/bin/index.js",
+    "dev": "ts-node ./src/index.ts",
     "lint": "eslint .",
     "prettier": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },

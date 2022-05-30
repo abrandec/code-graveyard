@@ -13,16 +13,14 @@ if (options.debug) {
   console.log(options);
 }
 
-const userInfo = JSON.parse(fs.readFileSync('./typescript/acct_mgmt.json', 'utf8'));
+const userInfo = JSON.parse(fs.readFileSync('./src/acct_mgmt.json', 'utf8'));
 
 const username = options.address;
 const messageHash = options.messageHash;
 
-const getNonce = options.getNonce;
-const getUsername = options.getUsername;
-
 // Hashmap stored in 1st index
 // Address gets user's index
+// relatively straight-foward, check out how the json is structured
 const userIndex: number = userInfo[0][username];
 
 // if user doesn't exist
