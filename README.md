@@ -1,6 +1,6 @@
 # Code Graveyard
 
-Contains code that i've built but had to remove from my projects due to architectural changes, etc that other way find useful for learning.
+Contains code that i've built but had to remove from my projects due to architectural changes, etc that others may find useful for learning.
 
 :warning: Lack of tests 
 
